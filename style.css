@@ -14,14 +14,14 @@ header {
   border-bottom: 2px solid #ccc; /* Séparation visuelle propre */
 }
 
-.logo {
-  max-width: 150px;
-  display: block;
-  margin: 0 auto 0.5rem;
-  background: #fff;        /* FOND BLANC ajouté autour */
-  padding: 12px;
-  border-radius: 12px;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+.logo-anim {
+  width: 400px;
+  height: 400px;
+  /* Autres propriétés de style pour positionner le logo */
+  /* Par exemple: */
+  position: absolute;
+  top: /* Position verticale */ px;
+  left: /* Position horizontale */ px;
 }
 
 .slogan {
