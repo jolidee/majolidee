@@ -151,3 +151,20 @@ footer {
   line-height: 1.5;
 }
 
+.social-links {
+  margin-top: 1rem;
+}
+
+.social-links a {
+  color: #FFD700;
+  font-size: 1.5rem;
+  text-decoration: none;
+  margin: 0 0.5rem;
+  display: inline-block;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #fff;
+  transform: scale(1.2);
+}
