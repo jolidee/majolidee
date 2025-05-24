@@ -15,13 +15,9 @@ header {
 }
 
 .logo-anim {
-  width: 400px;
-  height: 400px;
-  /* Autres propriétés de style pour positionner le logo */
-  /* Par exemple: */
-  position: absolute;
-  top: /* Position verticale */ px;
-  left: /* Position horizontale */ px;
+width: 28vw;         /* ajustable pour équilibrer surface */
+  height: auto;
+  max-height: 40vh;
 }
 
 .slogan {
