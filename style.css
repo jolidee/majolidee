@@ -18,10 +18,10 @@ header {
   max-width: 150px;
   display: block;
   margin: 0 auto 0.5rem;
-  background: #fff; /* Optionnel ici car le fond est déjà blanc */
-  padding: 10px;
-  border-radius: 8px;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05); /* Légère ombre pour ressortir */
+  background: #fff;        /* FOND BLANC ajouté autour */
+  padding: 12px;
+  border-radius: 12px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
 }
 
 .slogan {
