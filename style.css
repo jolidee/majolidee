@@ -49,6 +49,31 @@ header {
 .about h2 {
   color: #000;
 }
+.services {
+  background-color: #000;
+  color: #FFD700;
+  padding: 2rem;
+  text-align: left;
+}
+
+.services h2 {
+  text-align: center;
+  color: #FFD700;
+  margin-bottom: 1.5rem;
+}
+
+.services ul {
+  list-style: none;
+  padding: 0;
+  max-width: 800px;
+  margin: auto;
+}
+
+.services li {
+  padding: 0.5rem 0;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
 
 .contact {
   background: #fff;
