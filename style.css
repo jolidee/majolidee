@@ -121,3 +121,33 @@ footer {
   background: #000;
   color: #FFD700;
 }
+
+.services {
+  background-color: #000;
+  color: #FFD700;
+  padding: 2rem;
+  text-align: left;
+}
+
+.services-content {
+  max-width: 1000px;
+  margin: auto;
+  padding: 0 1rem;
+}
+
+.services-content h2 {
+  text-align: left;
+  margin-bottom: 1.5rem;
+}
+
+.services-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.services-content li {
+  padding: 0.5rem 0;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
