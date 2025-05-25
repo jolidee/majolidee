@@ -20,6 +20,8 @@ body {
   height: auto;
   margin: auto;
   display: block;
+  border: 2px solid #FFD700; /* Bordure jaune */
+  border-radius: 10px; /* Coins arrondis */
 }
 
 .slogan {
