@@ -138,6 +138,15 @@ footer {
   border-radius: 12px;
 }
 
+footer a {
+  text-decoration: none;
+  color: #FFD700; /* Couleur jaune */
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
 /* Pour que les coins arrondis soient appliqués correctement */
 .slogan, .about, .services, .contact, footer {
   overflow: hidden;
