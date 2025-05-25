@@ -6,34 +6,26 @@ body {
   padding: 0;
 }
 
-header {
-  background: #fff; /* Fond blanc */
-  color: #000;      /* Texte noir */
-  text-align: center;
-  padding: 1rem;
-  border-bottom: 2px solid #ccc; /* Séparation visuelle propre */
-}
-
 .logo-anim {
-width: 100px;
-  height: 50px;
-  position: absolute;
-  top: 20px;
-  left: 50%;
-  transform: translateX(-50%);
+  width: 100%;
+  height: auto;
+  position: relative;
+  top: 0;
+  left: 0;
+  transform: none;
+  margin: auto;
+  display: block;
 }
-
 
 .slogan {
-   font-style: italic;
+  font-style: italic;
   font-size: 1rem;
   text-align: center;
   display: block;
   margin: auto;
   background-color: #000;
   color: #FFD700;
-   padding: 1rem;
-  text-align: left;
+  padding: 1rem;
 }
 
 .about {
@@ -56,6 +48,7 @@ width: 100px;
 .about h2 {
   color: #000;
 }
+
 .services {
   background-color: #000;
   color: #FFD700;
@@ -63,20 +56,24 @@ width: 100px;
   text-align: left;
 }
 
-.services h2 {
-  text-align: center;
-  color: #FFD700;
-  margin-bottom: 1.5rem;
+.services-content {
+  max-width: 1000px;
+  margin: auto;
+  padding: 0 1rem;
 }
 
-.services ul {
+.services-content h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #FFD700;
+}
+
+.services-content ul {
   list-style: none;
   padding: 0;
-  max-width: 800px;
-  margin: auto;
 }
 
-.services li {
+.services-content li {
   padding: 0.5rem 0;
   font-size: 1.1rem;
   line-height: 1.5;
@@ -127,33 +124,4 @@ footer {
   padding: 1rem;
   background: #000;
   color: #FFD700;
-}
-
-.services {
-  background-color: #000;
-  color: #FFD700;
-  padding: 2rem;
-  text-align: left;
-}
-
-.services-content {
-  max-width: 1000px;
-  margin: auto;
-  padding: 0 1rem;
-}
-
-.services-content h2 {
-  text-align: left;
-  margin-bottom: 1.5rem;
-}
-
-.services-content ul {
-  list-style: none;
-  padding: 0;
-}
-
-.services-content li {
-  padding: 0.5rem 0;
-  font-size: 1.1rem;
-  line-height: 1.5;
 }
