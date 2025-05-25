@@ -171,3 +171,12 @@ footer a:hover {
   text-decoration: underline;
 }
 
+.about {
+  background-image: url('images/background-about.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 40px 20px;
+  color: #fff; /* Change si ton texte est illisible */
+}
+
