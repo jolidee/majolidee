@@ -177,6 +177,6 @@ footer a:hover {
   background-position: center;
   background-repeat: no-repeat;
   padding: 40px 20px;
-  color: #fff; /* Change si ton texte est illisible */
+  color: #000; /* texte noir */
 }
 
