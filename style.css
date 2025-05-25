@@ -138,6 +138,6 @@ footer {
 }
 
 /* Pour que les coins arrondis soient appliqués correctement */
-.slogan, .about, .services, .contact {
+.slogan, .about, .services, .contact, footer {
   overflow: hidden;
 }
