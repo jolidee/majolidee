@@ -31,7 +31,7 @@ body {
   background-color: #000;
   color: #FFD700;
   padding: 1rem;
-  border-radius: 10px;
+  border-radius: 8px;
 }
 
 .about {
@@ -41,7 +41,7 @@ body {
   padding: 2rem;
   max-width: 1000px;
   margin: auto;
-  border-radius: 10px;
+  border-radius: 8px;
 }
 
 .photo {
@@ -61,7 +61,7 @@ body {
   color: #FFD700;
   padding: 2rem;
   text-align: left;
-  border-radius: 10px;
+  border-radius: 8px;
 }
 
 .services-content {
@@ -91,7 +91,7 @@ body {
   background: #fff;
   padding: 2rem;
   text-align: center;
-  border-radius: 10px;
+  border-radius: 8px;
 }
 
 .contact h2 {
@@ -133,8 +133,8 @@ footer {
   padding: 1rem;
   background: #000;
   color: #FFD700;
-  border: 1px solid #FFD700;
-  border-radius: 10px;
+  border: 3px solid #FFD700;
+  border-radius: 8px;
 }
 
 /* Pour que les coins arrondis soient appliqués correctement */
