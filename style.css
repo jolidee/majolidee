@@ -15,9 +15,10 @@ header {
 }
 
 .logo-anim {
-width: 28vw;         /* ajustable pour équilibrer surface */
-  height: auto;
-  max-height: 40vh;
+ transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }
 
 
